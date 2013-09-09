@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<title></title>
+</head>
+<body>
+
+<div id="container">
+	
+</div>
+
+<script type="text/javascript">
+	$.getJSON("fetchposts.php", function(data){
+		for (var i = 0; i < data.length; i++) {
+			$('#container').append("<div class='postcontainer'><h2 class='posttitle'>"+ data[i].title +"</h2><p class='posttext'>"+ data[i].text +"</p><small class='postmeta'>"+ data[i].created +" by "+ data[i].author +"</small></div>");
+		};
+	});
+</script>
+</body>
+</html>
+
