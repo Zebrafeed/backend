@@ -1,7 +1,7 @@
 <?php
 	$host	= 'localhost';
-	$user	= 'backendUser';
-	$pass	= 'password';
+	$user	= 'root';
+	$pass	= '29erSail!';
 	$db		= 'backend';
 
 	$con = mysql_connect($host, $user, $pass);

@@ -4,24 +4,20 @@
 	*/
 	class Post{
 
-		public $title = "";
-		public $text = "";
-		public $created = "";
-		public $author = "";
-		public $id = ""
+		public  $id = "";
+		public  $title = "";
+		public  $text = "";
+		public  $created = "";
+		public  $author = "";
 
-		function __construct($id, $title, $text, $created, $author){
+		public function __construct($id, $title, $text, $created, $author){
 			$this->id = $id;
 			$this->title = $title;
 			$this->text = $text;
 			$this->created = $created;
 			$this->author = $author;
 		}
-
-		/*
-			Getters and Setters
-		*/
-
+		
 		/**
 		 * Getter for title
 		 *
