@@ -6,51 +6,108 @@
 
 		public $title = "";
 		public $text = "";
-		public $meta = "";
+		public $created = "";
 		public $author = "";
+		public $id = ""
 
-		function __construct($title, $text, $meta, $author){
-			$this->$title = $title;
-			$this->$text = $text;
-			$this->$meta = $meta;
-			$this->$author = $author;
+		function __construct($id, $title, $text, $created, $author){
+			$this->id = $id;
+			$this->title = $title;
+			$this->text = $text;
+			$this->created = $created;
+			$this->author = $author;
 		}
 
 		/*
 			Getters and Setters
 		*/
 
-		//Title
-		public function getTitle(){
-			return $this->$title;
+		/**
+		 * Getter for title
+		 *
+		 * @return mixed
+		 */
+		public function getTitle()
+		{
+		    return $this->title;
 		}
-		public function setTitle($title){
-			$this->$title = $title;
+		
+		/**
+		 * Setter for title
+		 *
+		 * @param mixed $title Value to set
+		 * @return self
+		 */
+		public function setTitle($title)
+		{
+		    $this->title = $title;
+		    return $this;
+		}
+		
+		/**
+		 * Getter for text
+		 *
+		 * @return mixed
+		 */
+		public function getText()
+		{
+		    return $this->text;
+		}
+		
+		/**
+		 * Setter for text
+		 *
+		 * @param mixed $text Value to set
+		 * @return self
+		 */
+		public function setText($text)
+		{
+		    $this->text = $text;
+		    return $this;
 		}
 
-		//Text
-		public function getText(){
-			return $this->$text;
+		/**
+		 * Getter for created
+		 *
+		 * @return mixed
+		 */
+		public function getCreated()
+		{
+		    return $this->created;
 		}
-		public function setText($text){
-			$this->$text = $text;
+		
+		/**
+		 * Setter for created
+		 *
+		 * @param mixed $created Value to set
+		 * @return self
+		 */
+		public function setCreated($created)
+		{
+		    $this->created = $created;
+		    return $this;
 		}
-
-		//Meta
-		public function getMeta(){
-			return $this->$meta;
+		
+		/**
+		 * Getter for author
+		 *
+		 * @return mixed
+		 */
+		public function getAuthor()
+		{
+		    return $this->author;
 		}
-		public function setMeta($meta){
-			$this->$meta = $meta;
-		}
-
-		//Author
-		public function getAuthor(){
-			return $this->$author;
-		}
-		public function setAuthor($author){
-			$this->$author = $author;
-		}
-
+		
+		/**
+		 * Setter for author
+		 *
+		 * @param mixed $author Value to set
+		 * @return self
+		 */
+		public function setAuthor($author)
+		{
+		    $this->author = $author;
+		    return $this;
+		}	
 	}
 ?>
