@@ -1,6 +1,6 @@
 <?php
 	require 'post.php';
-	require 'connect.php';
+	require '../../connect.php';
 
 	$sql = mysql_query("SELECT * FROM posts");
 	$posts = array();
