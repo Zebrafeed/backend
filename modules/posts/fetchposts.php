@@ -2,7 +2,12 @@
 	require 'post.php';
 	require '../../connect.php';
 
-	$sql = mysql_query("SELECT * FROM posts");
+	if(isset($_GET['postid'])){
+		$pid = $_GET['postid'];
+		$sql = mysql_query("SELECT * FROM posts WHERE id=$pid");
+	}else{
+		$sql = mysql_query("SELECT * FROM posts");
+	}
 	$posts = array();
 
 	while($row = mysql_fetch_object($sql)){
