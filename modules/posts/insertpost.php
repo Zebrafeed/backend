@@ -1,5 +1,4 @@
 <?php 
-	require "post.php";
 	require "../../connect.php";
 
 	$title = mysql_real_escape_string($_POST['title']);
