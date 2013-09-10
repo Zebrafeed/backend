@@ -1,8 +1,8 @@
 <?php
-	$host	= 'localhost';
-	$user	= 'backendUser';
-	$pass	= 'password';
-	$db		= 'backend';
+	$host	= 'backend-184702.mysql.binero.se';
+	$user	= '184702_je16862';
+	$pass	= 'zebrafeed';
+	$db		= '184702-backend';
 
 	$con = mysql_connect($host, $user, $pass);
 	mysql_set_charset("UTF8", $con);
