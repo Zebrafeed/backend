@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<title></title>
+</head>
+<body>
+
+<div id="container">
+	
+</div>
+
+<script type="text/javascript">
+	$.getJSON("fetchevents.php", function(data){
+		for (var i = 0; i < data.length; i++) {
+			$('#container').append("<div class='eventcontainer'><h2 class='eventtitle'>"+ data[i].title +"</h2><p class='eventdesc'>"+ data[i].desc +"</p><small class='eventtime'>"+ data[i].timedate +"</small></div>");
+		};
+	});
+</script>
+</body>
+</html>
