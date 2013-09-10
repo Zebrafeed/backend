@@ -11,7 +11,7 @@
 	$posts = array();
 
 	while($row = mysql_fetch_object($sql)){
-		$posts[] = new Post($row->id, $row->title, $row->text, $row->created, $row->author);
+		$posts[] = new Post($row->id, $row->title, $row->text, $row->created, $row->author, $row->cat);
 	}
 
 	echo json_encode($posts);

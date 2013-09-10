@@ -9,13 +9,15 @@
 		public  $text = "";
 		public  $created = "";
 		public  $author = "";
+		public  $cat = "";
 
-		public function __construct($id, $title, $text, $created, $author){
+		public function __construct($id, $title, $text, $created, $author, $cat){
 			$this->id = $id;
 			$this->title = $title;
 			$this->text = $text;
 			$this->created = $created;
 			$this->author = $author;
+			$this->cat = $cat;
 		}
 		
 		/**
@@ -104,6 +106,29 @@
 		{
 		    $this->author = $author;
 		    return $this;
-		}	
+		}
+
+		/**
+			 * Getter for cat
+			 *
+			 * @return mixed
+			 */
+			public function getCat()
+			{
+			    return $this->cat;
+			}
+			
+			/**
+			 * Setter for cat
+			 *
+			 * @param mixed $cat Value to set
+			 * @return self
+			 */
+			public function setCat($cat)
+			{
+			    $this->cat = $cat;
+			    return $this;
+			}
+				
 	}
 ?>
