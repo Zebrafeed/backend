@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<title></title>
+</head>
+<body>
+
+<div id="container">
+	
+</div>
+
+<script type="text/javascript">
+	$.getJSON("fetchimages.php", function(data){
+		for (var i = 0; i < data.length; i++) {
+			$('#container').append("<div class='imagecontainer'><h2 class='imagetitle'>"+ data[i].name +"</h2><img src='http://"+ data[i].uri +"' class='image'><br><small class='imagedesc'>"+ data[i].desc +"</small></div>");
+		};
+	});
+</script>
+</body>
+</html>
+
