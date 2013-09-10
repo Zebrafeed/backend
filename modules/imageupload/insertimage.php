@@ -16,10 +16,14 @@
 		
 		if((($_FILES["image"]["type"] == "image/gif") || ($_FILES["image"]["type"] == "image/jpeg") || ($_FILES["image"]["type"] == "image/jpg") || ($_FILES["image"]["type"] == "image/pjpeg") || ($_FILES["image"]["type"] == "image/x-png") || ($_FILES["image"]["type"] == "image/png"))){
 			if(move_uploaded_file($_FILES['image']['tmp_name'], $uploadfile)){
-				if(isset($title, $desc)){
-					$sql = mysql_query("INSERT INTO images VALUES ($name, $desc, $uploadfile)");
+				if(isset($name, $desc)){
+					 if(mysql_query("INSERT INTO images VALUES ('$name', '$desc', '$uploadfile')")){
+					 	echo "<img src='". $uploadfile ."'>";
+					 }else{
+					 	echo mysql_error();
+					 }
 				}else{
-					echo "Cannot add image to database";
+					echo "Missing title/description";
 				}
 			}else{
 				echo "Upload failed";
