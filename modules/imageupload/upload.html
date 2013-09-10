@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<title>Test upload</title>
+</head>
+<body>
+	<form id="form" enctype="multipart/form-data" method="POST" action="insertimage.php">
+		<input type="text" name="title">
+		<input type="text" name="desc">
+		<input type="file" name="image">
+	</form>
+	<button id="sub">Submit</button>
+
+	<script type="text/javascript">
+		$('#sub').click(function(){
+			$('#form').submit();
+		});
+	</script>
+</body>
+</html>
