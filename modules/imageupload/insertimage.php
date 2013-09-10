@@ -18,7 +18,7 @@
 			if(move_uploaded_file($_FILES['image']['tmp_name'], $uploadfile)){
 				if(isset($name, $desc)){
 					 if(mysql_query("INSERT INTO images VALUES ('$name', '$desc', '$uploadfile')")){
-					 	echo "<img src='". $uploadfile ."'>";
+					 	echo "Successfully uploaded image!";
 					 }else{
 					 	echo mysql_error();
 					 }
