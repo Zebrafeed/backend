@@ -1,1 +1,9 @@
-img/*
+img/
+*.jpg
+*.png
+*.JPG
+*.jpeg
+*.JPEG
+*.gif
+*.GIF
+*.PNG
