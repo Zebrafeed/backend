@@ -6,7 +6,7 @@
 	$sql = mysql_query("SELECT * FROM images");
 
 	while ($row = mysql_fetch_object($sql)) {
-		$images[] = new Image($row->name, $row->desc, $row->uri);
+		$images[] = new Image($row->id, $row->name, $row->desc, $row->uri);
 	}
 
 	echo json_encode($images);

@@ -4,14 +4,16 @@
 	*/
 	class Image{
 
+		public $id = "";
 		public $name = "";
 		public $desc = "";
 		public $uri = "";
 		
-		function __construct($name, $desc, $uri){
+		function __construct($name, $desc, $uri, $id){
 			$this->name = $name;
 			$this->desc = $desc;
 			$this->uri = $uri;
+			$this->id = $id;
 		}
 
 		/**
