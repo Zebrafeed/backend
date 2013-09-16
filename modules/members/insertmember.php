@@ -43,4 +43,10 @@
 	}
 
 	$sql = mysql_query("INSERT INTO members VALUES ('', $username, $password, $email, $fullname, $adress, $ort, $idnr, $telnr)");
+
+	if ($sql) {
+		echo "Insert successful";
+	}else{
+		echo "Failed to insert data";
+	}
 ?>
