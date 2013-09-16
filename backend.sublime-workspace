@@ -79,14 +79,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/wamp/www/Knockout/index.html",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -115,6 +107,7 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/Knockout/index.html",
 		"/C/wamp/www/backend/frontend/index.html",
 		"/C/wamp/www/backend/frontend/adminpanel.html",
 		"/C/wamp/www/backend/modules/posts/fetchposts.php",
@@ -212,36 +205,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/wamp/www/Knockout/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
