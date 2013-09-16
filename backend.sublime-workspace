@@ -1,0 +1,321 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sc",
+				"schillerskaselevkar"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"sched",
+				"schedulecontainer"
+			],
+			[
+				"galler",
+				"gallerycontent"
+			],
+			[
+				"post",
+				"postnumbers"
+			],
+			[
+				"po",
+				"postnumbers"
+			],
+			[
+				"load",
+				"loadGallery"
+			],
+			[
+				"home",
+				"homeContent"
+			],
+			[
+				"loadG",
+				"loadGallery"
+			],
+			[
+				"gall",
+				"galleryContent"
+			],
+			[
+				"mysql_nu",
+				"mysql_num_rows"
+			],
+			[
+				"mysql_fe",
+				"mysql_fetch_assoc"
+			],
+			[
+				"mysql",
+				"mysql_error"
+			],
+			[
+				"mysq",
+				"mysql_error"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/wamp/www/Knockout/index.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/backend/frontend/index.html",
+		"/C/wamp/www/backend/frontend/adminpanel.html",
+		"/C/wamp/www/backend/modules/posts/fetchposts.php",
+		"/C/wamp/www/backend/frontend/css/style.css",
+		"/C/wamp/www/backend/frontend/login.html",
+		"/C/wamp/www/schillerska/app/blimedlem.html",
+		"/C/wamp/www/schillerska/app/schema.html",
+		"/C/wamp/www/schillerska/app/gallery.html",
+		"/C/wamp/www/schillerska/app/index.html",
+		"/C/wamp/www/schillerska/Backend/gallery.php",
+		"/C/wamp/www/schillerska/Backend/posts.php",
+		"/C/wamp/www/schillerska/Backend/schema.php",
+		"/C/wamp/www/schillerska/Backend/memberhandler.php",
+		"/C/wamp/www/schillerska/Backend/blimedlem.php",
+		"/C/wamp/www/schillerska/Backend/loadposts.php",
+		"/C/wamp/www/schillerska/app/backupOfPages",
+		"/C/wamp/www/schillerska/Backend/ajax.php",
+		"/C/wamp/www/schillerskapp/loadposts.php",
+		"/C/wamp/www/schillerskapp/loadgallery.php",
+		"/C/wamp/www/schillerska/app/js/jscroll.js",
+		"/C/wamp/www/jscroll/javascript.js",
+		"/C/wamp/www/schillerskawebsida/connect.php",
+		"/C/Users/unlikeme/AppData/Local/Temp/Rar$DRa0.369/javascript.js",
+		"/C/wamp/www/schillerskawebsida/sidebar.php",
+		"/C/wamp/www/schillerskapp/loadschedule.php",
+		"/C/wamp/www/schillerska/app/config.xml",
+		"/C/Users/unlikeme/Desktop/index.html",
+		"/C/wamp/www/schillerskawebsida/style.css",
+		"/C/wamp/www/schillerska/app/js/energize-min.js",
+		"/C/Users/unlikeme/Downloads/iscroll-master/demos/simple/index.html",
+		"/C/wamp/www/iscroll test/css/style.css",
+		"/C/wamp/www/iscroll test/index.html",
+		"/C/wamp/www/schillerska/app/css/style.css",
+		"/C/Users/unlikeme/Downloads/iscroll-master/demos/barebone/index.html",
+		"/C/Users/unlikeme/Downloads/iscroll-master/demos/tap/index.html",
+		"/C/Users/unlikeme/Downloads/iscroll-master/demos/2d-scroll/index.html",
+		"/C/Users/unlikeme/Downloads/iscroll-master/build.js",
+		"/C/wamp/www/XHR/index.html",
+		"/C/wamp/www/XHR/logic2.php",
+		"/C/wamp/www/XHR/logic.php",
+		"/C/wamp/www/jquerydivswitcher/data.html",
+		"/C/wamp/www/schillerskapp/index.html",
+		"/C/wamp/www/schillerskawebsida/listmembers.php",
+		"/C/wamp/www/schillerskawebsida/verksamhet.html",
+		"/C/wamp/www/schillerskawebsida/memberhandler.php",
+		"/C/wamp/www/jquerytest/index.html",
+		"/C/wamp/www/jquerytest/connect.php",
+		"/C/wamp/www/jquerytest/data.php",
+		"/C/wamp/www/schillerskawebsida/footer.php",
+		"/C/wamp/www/schillerskawebsida/header.php",
+		"/C/wamp/www/schillerskawebsida/dbcron.php",
+		"/C/wamp/www/cygateadmin/index.html",
+		"/C/Users/unlikeme/Downloads/medlemmar.sql",
+		"/C/wamp/www/schillerskawebsida/index.php",
+		"/C/wamp/www/cygatekickoff/style.css",
+		"/C/wamp/www/cygateadmin/show.html",
+		"/C/wamp/www/cygatekickoff/data.php",
+		"/C/wamp/www/cygatekickoff/index.html",
+		"/C/wamp/www/cygateadmin/addteams.php",
+		"/C/wamp/www/cygateadmin/add.html",
+		"/C/wamp/www/cygatekickoff/connect.php",
+		"/C/wamp/www/cygateadmin/connect.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/wamp/www/Knockout/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "backend.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 163.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
