@@ -1,4 +1,4 @@
-img/
+img/*
 *.jpg
 *.png
 *.JPG
@@ -7,3 +7,6 @@ img/
 *.gif
 *.GIF
 *.PNG
+
+backend.sublime-project
+backend.sublime-workspace
