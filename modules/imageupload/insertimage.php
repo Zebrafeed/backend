@@ -9,12 +9,17 @@
 
 		$name = $_POST['title'];
 		$desc = $_POST['desc'];
+		if (isset($_POST['type'])) {
+			$type = $_POST['type'];
+		}else{
+			$type = "";
+		}
 		
 		if((($_FILES["image"]["type"] == "image/gif") || ($_FILES["image"]["type"] == "image/jpeg") || ($_FILES["image"]["type"] == "image/jpg") || ($_FILES["image"]["type"] == "image/pjpeg") || ($_FILES["image"]["type"] == "image/x-png") || ($_FILES["image"]["type"] == "image/png"))){
 			if(move_uploaded_file($_FILES['image']['tmp_name'], $uploadfile)){
 				if(isset($name, $desc)){
 					$uploadfile2 = $_SERVER['HTTP_HOST'] . '/backend/modules/imageupload/img/' . basename($_FILES['image']['name']);
-					if(mysql_query("INSERT INTO images VALUES ('', '$name', '$desc', '$uploadfile2')")){
+					if(mysql_query("INSERT INTO images VALUES ('', '$name', '$desc', '$uploadfile2', '$type')")){
 						echo "Successfully uploaded image! <br>";
 						echo "<img src='". $uploadfile ."'>";
 					}else{

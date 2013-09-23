@@ -3,7 +3,7 @@
 	require '../../connect.php';
 
 	$images = array();
-	$sql = mysql_query("SELECT * FROM images");
+	$sql = mysql_query("SELECT * FROM images WHERE type='slider'");
 
 	while ($row = mysql_fetch_object($sql)) {
 		$images[] = new Image($row->name, $row->desc, $row->uri, $row->id, $row->type);

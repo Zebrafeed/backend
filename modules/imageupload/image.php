@@ -8,12 +8,14 @@
 		public $name = "";
 		public $desc = "";
 		public $uri = "";
+		public $type = "";
 		
-		function __construct($name, $desc, $uri, $id){
+		function __construct($name, $desc, $uri, $id, $type){
 			$this->name = $name;
 			$this->desc = $desc;
 			$this->uri = $uri;
 			$this->id = $id;
+			$this->type = $type;
 		}
 
 		/**
@@ -81,6 +83,29 @@
 		    $this->uri = $uri;
 		    return $this;
 		}
+
+		/**
+		 * Getter for type
+		 *
+		 * @return mixed
+		 */
+		public function getType()
+		{
+		    return $this->type;
+		}
+		
+		/**
+		 * Setter for type
+		 *
+		 * @param mixed $type Value to set
+		 * @return self
+		 */
+		public function setType($type)
+		{
+		    $this->type = $type;
+		    return $this;
+		}
+		
 		
 		
 		
